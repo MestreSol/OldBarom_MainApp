@@ -1,9 +1,8 @@
-var gulp = require('gulp');
-var less = require('gulp-less');
-var cleanCSS = require('gulp-clean-css');
-var imagemin = require('gulp-imagemin');
-var clean = require('gulp-clean');
-var watch = require('gulp-watch');
+const gulp = require('gulp');
+const less = require('gulp-less');
+const cleanCSS = require('gulp-clean-css');
+const imagemin = require('gulp-imagemin');
+const clean = require('gulp-clean');
 
 // Clear dist folder
 gulp.task('clean', function() {
